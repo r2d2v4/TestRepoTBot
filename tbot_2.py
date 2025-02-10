@@ -61,31 +61,6 @@ def text_message(message):
                                           "Напиши /help для справки.")
         print("Бот ответил: Не понимаю о чем ты. Ведь я еще очень маленький бот.\n"
               "             Напиши /help для справки.\n")
-#bot.infinity_polling()
-
-
-
 
 bot.polling()
 
-'''
-
-@bot.message_handler(commands=['start', 'help'])
-def send_welcome(message):
-    bot.reply_to(message, "Howdy, how are you doing?")
-
-@bot.message_handler(func=lambda message: True)
-def echo_all(message):
-    bot.reply_to(message, message.text)
-
-bot.infinity_polling()
-
-'''
-
-
-'''
-    bot.send_message(message.chat.id, "Привет, дружище!\nЯ очень простой бот, "
-                                      "пока я умею только складывать два числа.\n"
-                                      "Но очень скоро, когда я вырасту, у меня появится больше умений! "
-                                      "И тогда я смогу приносить больше пользы!")
-'''
