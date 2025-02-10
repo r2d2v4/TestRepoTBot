@@ -63,4 +63,3 @@ def text_message(message):
               "             Напиши /help для справки.\n")
 
 bot.polling()
-
