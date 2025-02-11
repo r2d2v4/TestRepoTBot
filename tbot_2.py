@@ -22,8 +22,6 @@ def start_message(message):
 @bot.message_handler(commands=['help'])
 def help_command(message):
     monitoring_standard(message)
-    commands = ('/start', '/help', '/samsa')
-    #print(message.text)
     help_message = "Привет! Я очень простой бот, "\
                 "пока я умею только складывать два числа. "\
                 "Но очень скоро, когда я вырасту, у меня появится больше умений! "\
@@ -35,7 +33,6 @@ def help_command(message):
 @bot.message_handler(commands=['samsa'])
 def samsa_command(message):
     monitoring_standard(message)
-    #print(message.text)
     bot.send_message(message.chat.id, "Такая команда samsa называется. Ничего не делает.")
     bot.send_message(message.chat.id, "Это сообщение отправляется пользователю.")
     w = message.chat.id
@@ -44,18 +41,15 @@ def samsa_command(message):
 @bot.message_handler(content_types = ['text'])
 def text_message(message):
     monitoring_standard(message)
-    #print(message.text)
     if message.text.lower() == 'привет':
-        #bot.send_message(message.chat.id, str(sum([int(num) for num in message.text.split()])))
         bot.send_message(message.chat.id, "Приветствую тебя!")
         print("Бот ответил: Приветствую тебя!")
     elif len(message.text.split()) == 2:
         number_a, number_b = message.text.split()
-        answer = tbot_2_lib.bar(number_a) + tbot_2_lib.bar(number_b)
+        #answer = tbot_2_lib.bar(number_a) + tbot_2_lib.bar(number_b)
+        answer = tbot_2_lib.add_number(number_a, number_b)
         bot.send_message(message.chat.id, answer)
         print(f"Бот ответил: {answer}\n")
-        #bot.send_message(message.chat.id, str(float(message.text.split()[0]) + float(message.text.split()[1])))
-        #print(f"Бот ответил: {str(float(message.text.split()[0]) + float(message.text.split()[1]))}\n")
     else:
         bot.send_message(message.chat.id, "Не понимаю о чем ты. Ведь я еще очень маленький бот.\n"
                                           "Напиши /help для справки.")

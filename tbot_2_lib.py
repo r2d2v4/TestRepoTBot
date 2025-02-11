@@ -58,11 +58,5 @@ def bar(number):
     return a
 
 
-#numbers = input('Введите два числа через пробел:\n')
-'''
-if len(numbers.split()) == 2:
-    number_a, number_b = numbers.split()
-    #print(number_a)
-    #print(number_b)
-    print(bar(number_a) + bar(number_b))
-'''
+def add_number(number_a, number_b):
+    return bar(number_a) + bar(number_b)

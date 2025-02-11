@@ -4,8 +4,33 @@ https://habr.com/ru/articles/787976/
 Официальная документация: https://pypi.org/project/pyTelegramBotAPI/
 Примеры и руководства: https://github.com/eternnoir/pyTelegramBotAPI/tree/master/examples
 
+
+Python
+
+Изучаем Python: теория, практика, настройка инструментов
+https://selectel.ru/blog/courses/course-python/
+https://habr.com/ru/companies/selectel/news/878306/
+
+Git
+
 Димина статья на Хабре
 https://habr.com/ru/companies/gnivc/articles/792082/
 
 Статья на Хабре про Git
 https://habr.com/ru/companies/yandex_praktikum/articles/700708/
+
+
+Tests
+
+Тестируем на Python: unittest и pytest. Инструкция для начинающих
+https://tproger.ru/articles/testiruem-na-python-unittest-i-pytest-instrukcija-dlja-nachinajushhih
+
+Как работать с тестированием кода на Python
+https://sky.pro/media/kak-rabotat-s-testirovaniem-koda-na-python/
+
+Как фреймворк Pytest упрощает тестирование кода
+https://practicum.yandex.ru/blog/pytest-testirovanie-prilozhenij-na-python/
+
+Делаем простые автотесты на Python
+https://thecode.media/unittest/?ysclid=m70te5f0sq489570713
+
