@@ -34,3 +34,5 @@ https://practicum.yandex.ru/blog/pytest-testirovanie-prilozhenij-na-python/
 Делаем простые автотесты на Python
 https://thecode.media/unittest/?ysclid=m70te5f0sq489570713
 
+Python Unit Tests: Введение в Тестирование
+https://www.youtube.com/watch?v=wPAVQItNu14
