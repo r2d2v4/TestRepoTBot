@@ -36,3 +36,7 @@ https://thecode.media/unittest/?ysclid=m70te5f0sq489570713
 
 Python Unit Tests: Введение в Тестирование
 https://www.youtube.com/watch?v=wPAVQItNu14
+
+python3 -m unittest test_tbot_2.py
+assert - утверждать
+equal - равный
