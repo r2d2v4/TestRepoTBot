@@ -1,5 +1,5 @@
 import string
-
+import random
 
 def positive_number(number):
     flag = 1
@@ -55,8 +55,21 @@ def bar(number):
             number = number.replace(',', '.')
         #print('Первое слагаемое - положительное число типа float')
         a = float(number)
+    else:
+        a = number
     return a
 
 
+def rnd_text():
+    words = ["Что-то тут не так. Попробуй снова.\nИли напиши /help для справки.",
+             "Не понимаю о чем ты. Ведь я еще очень маленький бот.\nНапиши /help для справки.",
+             "Здесь явно что-то не то.\nПопробуй напиши /help для справки."]
+    return random.choice(words)
+
+
 def add_number(number_a, number_b):
-    return bar(number_a) + bar(number_b)
+    if type(bar(number_a)) in [int, float] and type(bar(number_b)) in [int, float]:
+        result = bar(number_a) + bar(number_b)
+    else:
+        result = rnd_text()
+    return result

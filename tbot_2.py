@@ -50,9 +50,9 @@ def text_message(message):
         answer = tbot_2_lib.add_number(number_a, number_b)
         bot.send_message(message.chat.id, answer)
         print(f"Бот ответил: {answer}\n")
+
     else:
-        other_message = "Не понимаю о чем ты. Ведь я еще очень маленький бот.\n"\
-                        "Напиши /help для справки."
+        other_message = tbot_2_lib.rnd_text()
         bot.send_message(message.chat.id, other_message)
         print(f"Бот ответил: {other_message}\n")
 
