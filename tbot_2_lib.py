@@ -28,6 +28,46 @@ def delimeter_point2(number):
 
 
 def bar(number):
+    if delimeter_point1(number) or delimeter_point2(number):
+        if delimeter_point2(number):
+            number = number.replace(',', '.')
+        try:
+            result = float(number)
+        except ValueError:
+            result = rnd_text()
+    else:
+        try:
+            result = int(number)
+        except ValueError:
+            result = rnd_text()
+    return result
+
+'''
+def bar(number):
+    result = 0
+    try:
+        result = int(number)
+    except ValueError:
+        pass
+
+    if not result:
+        try:
+            result = float(number)
+        except ValueError:
+            result = 'LoLo'
+
+    return result
+'''
+
+
+
+
+
+
+
+
+'''
+def bar(number):
     if number[0] == '+' and positive_number(number[1:]):
         #print('Первое слагаемое - положительное число типа int, начинается с символа +')
         a = int(number)
@@ -58,11 +98,11 @@ def bar(number):
     else:
         a = number
     return a
-
+'''
 
 def rnd_text():
     words = ["Что-то тут не так. Попробуй снова.\nИли напиши /help для справки.",
-             "Не понимаю о чем ты. Ведь я еще очень маленький бот.\nНапиши /help для справки.",
+             "Не совсем понимаю о чем ты.\nНапиши /help для справки.",
              "Здесь явно что-то не то.\nПопробуй напиши /help для справки."]
     return random.choice(words)
 
