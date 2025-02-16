@@ -55,3 +55,12 @@ https://docs.python.org/3/library/unittest.html
 python3 -m unittest test_tbot_2.py
 assert - утверждать
 equal - равный
+
+
+Настройка VDS после покупки :)
+
+Инструкция по настройке VPS/VDS сервера с нуля
+https://www.ihc.ru/articles/instrukciya-po-nastrojke-vpsvds-servera-s-nulya.html
+
+Веб-сервер на Ubuntu с нуля: Вадим Макеев делится опытом поднятия сервера с Nginx, HTTP/2, Brotli и HTTPS
+youtu.be/oanbIqkS9LM
