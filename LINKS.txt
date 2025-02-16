@@ -64,3 +64,6 @@ https://www.ihc.ru/articles/instrukciya-po-nastrojke-vpsvds-servera-s-nulya.html
 
 Веб-сервер на Ubuntu с нуля: Вадим Макеев делится опытом поднятия сервера с Nginx, HTTP/2, Brotli и HTTPS
 youtu.be/oanbIqkS9LM
+
+Веб-сервер на Ubuntu 20 с нуля: nginx, HTTPS, Brotli и HTTP/2
+https://youtu.be/XDWWxA6g1eA?si=bXAdLddPdJHwGavY
