@@ -79,3 +79,26 @@ https://itshaman.ru/articles/1368/kak-sozdat-sluzhbu-systemd-v-linux?ysclid=m7p5
 
 Запускаем Python-скрипт на сервере, чтобы он работал всё время
 https://thecode.media/systemctl/
+
+
+Postgres
+
+Как работать с пользователями в PostgreSQL
+https://www.dmosk.ru/miniinstruktions.php?mini=postgresql-users
+
+Как работать с базами данных SQL в Python
+(Курс Изучаем Python: теория, практика, настройка инструментов)
+https://selectel.ru/blog/tutorials/working-with-sql-databases-in-python/
+
+Установка и использование PostgreSQL в Ubuntu 22.04
+(Курс PostgreSQL для новичков)
+https://selectel.ru/blog/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04/
+
+Установка и использование PostgreSQL в Ubuntu
+https://firstvds.ru/technology/ustanovka-postgresql-na-ubuntu
+
+Изучаем PostgreSQL. Часть 1. Знакомимся с архитектурой
+https://habr.com/ru/companies/otus/articles/706346/
+
+Список пользователей в PostgreSQL
+https://losst.pro/spisok-polzovatelej-v-postgresql
