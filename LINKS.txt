@@ -86,10 +86,6 @@ Postgres
 Как работать с пользователями в PostgreSQL
 https://www.dmosk.ru/miniinstruktions.php?mini=postgresql-users
 
-Как работать с базами данных SQL в Python
-(Курс Изучаем Python: теория, практика, настройка инструментов)
-https://selectel.ru/blog/tutorials/working-with-sql-databases-in-python/
-
 Установка и использование PostgreSQL в Ubuntu 22.04
 (Курс PostgreSQL для новичков)
 https://selectel.ru/blog/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04/
@@ -102,3 +98,14 @@ https://habr.com/ru/companies/otus/articles/706346/
 
 Список пользователей в PostgreSQL
 https://losst.pro/spisok-polzovatelej-v-postgresql
+
+
+PostgreSQL & Python
+
+Как работать с базами данных SQL в Python
+(Курс Изучаем Python: теория, практика, настройка инструментов)
+https://selectel.ru/blog/tutorials/working-with-sql-databases-in-python/
+
+Как работать с PostgreSQL в Python
+(Курс Погружение в PostgreSQL)
+https://selectel.ru/blog/tutorials/postgresql-python/?ysclid=m7xn3uye9b363933738
