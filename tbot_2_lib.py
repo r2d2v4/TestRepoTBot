@@ -1,5 +1,7 @@
 import string
 import random
+import psycopg
+
 
 def positive_number(number):
     flag = 1
@@ -41,6 +43,16 @@ def bar(number):
         except ValueError:
             result = rnd_text()
     return result
+
+
+def postgres_add_line(text):
+    connect = psycopg.connect(host='localhost', user='tester', password='tester25', dbname='tester')
+    cursor = connect.cursor()
+    cursor.execute("INSERT INTO tbot2log (datetime, username, question, answer) VALUES (%s, %s, %s, %s);", text)
+    connect.commit()
+    cursor.close()
+    connect.close()
+
 
 '''
 def bar(number):
