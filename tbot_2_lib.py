@@ -1,6 +1,8 @@
 import string
 import random
 import psycopg
+import os
+from dotenv import load_dotenv
 
 
 def positive_number(number):
@@ -45,8 +47,13 @@ def bar(number):
     return result
 
 
+load_dotenv()
+db_host = os.getenv("DB_HOST")
+db_user = os.getenv("DB_USER")
+db_password = os.getenv("DB_PASSWORD")
+db_name = os.getenv("DB_NAME")
 def postgres_add_line(text):
-    connect = psycopg.connect(host='localhost', user='tester', password='tester25', dbname='tester')
+    connect = psycopg.connect(host=db_host, user=db_user, password=db_password, dbname=db_name)
     cursor = connect.cursor()
     cursor.execute("INSERT INTO tbot2log (datetime, username, question, answer) VALUES (%s, %s, %s, %s);", text)
     connect.commit()
