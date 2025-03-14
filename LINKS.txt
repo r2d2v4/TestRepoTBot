@@ -109,3 +109,18 @@ https://selectel.ru/blog/tutorials/working-with-sql-databases-in-python/
 Как работать с PostgreSQL в Python
 (Курс Погружение в PostgreSQL)
 https://selectel.ru/blog/tutorials/postgresql-python/?ysclid=m7xn3uye9b363933738
+
+
+Docker
+
+Как установить Docker на Ubuntu
+https://firstvds.ru/technology/kak-ustanovit-docker-na-ubuntu
+
+Основные инструкции Docker
+https://tproger.ru/translations/docker-instuction
+
+Как создать и запустить образ Docker из Dockerfile
+https://dockerhosting.ru/blog/kak-sozdat-obraz-docker-iz-dockerfile/
+
+Изучаем Docker, часть 3: файлы Dockerfile
+https://habr.com/ru/companies/ruvds/articles/439980/
