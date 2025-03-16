@@ -124,3 +124,6 @@ https://dockerhosting.ru/blog/kak-sozdat-obraz-docker-iz-dockerfile/
 
 Изучаем Docker, часть 3: файлы Dockerfile
 https://habr.com/ru/companies/ruvds/articles/439980/
+
+Как устроен Dockerfile
+https://doka.guide/tools/dockerfile/
