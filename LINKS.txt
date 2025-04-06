@@ -75,7 +75,7 @@ Systemd
 https://redos.red-soft.ru/base/redos-7_3/7_3-administation/7_3-console/7_3-systemd/?nocache=1740933850591
 
 Как создать службу Systemd в Linux
-https://itshaman.ru/articles/1368/kak-sozdat-sluzhbu-systemd-v-linux?ysclid=m7p543llgy963583996
+https://itshaman.ru/articles/1368/kak-sozdat-sluzhbu-systemd-v-linux
 
 Запускаем Python-скрипт на сервере, чтобы он работал всё время
 https://thecode.media/systemctl/
