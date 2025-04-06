@@ -5,9 +5,10 @@ After=multi-user.target
 [Service]
 User=root
 Group=root
-Restart=always
 Type=simple
-ExecStart=/usr/bin/python3 /home/ssk/tbot2test/tbot_2_script.py
+Restart=always
+WorkingDirectory=/home/ssk/tbot2test/
+ExecStart=/usr/bin/python3 /home/ssk/tbot2test/tbot_2.py
 
 [Install]
 WantedBy=multi-user.target
